@@ -88,7 +88,19 @@ form {
   display: flex;
   flex-direction: column;
 }
-
+.margin {
+  margin-top: 60px;
+}
+.mensagem {
+    margin: 0;
+    padding: 0;
+    display: block;
+    color: grey;
+    font-size: 12px;
+    line-break: anywhere;
+    text-align: left;
+    margin-bottom: 12px;
+}
 .title {
   color: #e0e0e0;
   background-color: #5050d0;
@@ -102,16 +114,16 @@ form {
   border: 1px solid #a0a0a0;
 }
 .content p {
-    margin: 8px 0;
+  margin: 8px 0;
 }
 .check {
-    color: #282828;
-    a {
-        color: #606060;
-    }
+  color: #282828;
+  a {
+    color: #606060;
+  }
 }
-.check input{
-    margin-right: 5px;
+.check input {
+  margin-right: 5px;
 }
 .input {
   display: flex;
